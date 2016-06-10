@@ -1,0 +1,85 @@
+/*!
+Theme Name: BSD Wordpress Starterkit
+Theme URI: http://www.bluestatedigital.com
+Author: Blue State Digital
+Author URI: http://www.bluestatedigital.com
+Description: Custom theme starter kit
+*/
+
+// General Settings
+// =====================
+@import "variables";
+
+// Foundation Settings and Utilities
+// ======================
+@import 'foundation-sites/scss/util/util';
+@import 'foundation-sites/scss/global';
+
+// Foundation Components
+// ======================
+@import 'foundation-sites/scss/grid/grid';
+@import 'foundation-sites/scss/typography/typography';
+@import 'foundation-sites/scss/forms/forms';
+@import 'foundation-sites/scss/components/visibility';
+//@import 'foundation-sites/scss/components/float';
+@import 'foundation-sites/scss/components/button';
+//@import 'foundation-sites/scss/components/button-group';
+//@import 'foundation-sites/scss/components/accordion-menu';
+//@import 'foundation-sites/scss/components/accordion';
+//@import 'foundation-sites/scss/components/badge';
+//@import 'foundation-sites/scss/components/breadcrumbs';
+@import 'foundation-sites/scss/components/callout';
+//@import 'foundation-sites/scss/components/close-button';
+@import 'foundation-sites/scss/components/drilldown';
+@import 'foundation-sites/scss/components/dropdown-menu';
+@import 'foundation-sites/scss/components/dropdown';
+//@import 'foundation-sites/scss/components/flex-video';
+//@import 'foundation-sites/scss/components/label';
+@import 'foundation-sites/scss/components/media-object';
+@import 'foundation-sites/scss/components/menu';
+@import 'foundation-sites/scss/components/off-canvas';
+//@import 'foundation-sites/scss/components/orbit';
+//@import 'foundation-sites/scss/components/pagination';
+//@import 'foundation-sites/scss/components/progress-bar';
+//@import 'foundation-sites/scss/components/reveal';
+//@import 'foundation-sites/scss/components/slider';
+//@import 'foundation-sites/scss/components/sticky';
+//@import 'foundation-sites/scss/components/switch';
+//@import 'foundation-sites/scss/components/table';
+//@import 'foundation-sites/scss/components/tabs';
+@import 'foundation-sites/scss/components/title-bar';
+//@import 'foundation-sites/scss/components/top-bar';
+//@import 'foundation-sites/scss/components/thumbnail';
+//@import 'foundation-sites/scss/components/tooltip';
+
+// Initialize Foundation components
+@include foundation-callout;
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-typography;
+@include foundation-menu;
+@include off-canvas-basics;
+@include foundation-title-bar;
+@include foundation-visibility-classes;
+@include foundation-forms;
+@include foundation-button;
+@include foundation-dropdown;
+@include foundation-dropdown-menu;
+@include foundation-drilldown-menu;
+@include foundation-media-object;
+
+// Other Vendor Styles
+// ======================
+@import "vendor/fontawesome/font-awesome";
+@import "vendor/slick";
+@import "vendor/magnific-popup";
+
+
+// Site Styles
+// ======================
+@import "components/site-header";
+@import "components/primary-nav";
+@import "components/quote";
+@import "components/ctas";
+
+@import "utility";
